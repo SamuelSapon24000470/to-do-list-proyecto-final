@@ -19,8 +19,11 @@ El proyecto incluye **dos versiones**:
 ## 📂 Estructura del repositorio
 
 ├── todo-list-app-web/ # Versión web (React)
+
 ├── todo-list-app-apk/ # Versión móvil con Capacitor
+
 │ └── apk/ # APK generado
+
 └── README.md
 
 
