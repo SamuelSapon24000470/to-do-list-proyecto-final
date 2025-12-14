@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">To-Do-List-App</string>
+    <string name="title_activity_main">To-Do-List-App</string>
+    <string name="package_name">com.samuel.todolist</string>
+    <string name="custom_url_scheme">com.samuel.todolist</string>
+</resources>
