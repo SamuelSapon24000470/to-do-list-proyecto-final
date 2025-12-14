@@ -1,16 +1,43 @@
-# React + Vite
+# To-Do List App – Versión Android (APK)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Versión móvil de la aplicación To-Do List generada usando **Capacitor**, basada en la aplicación web desarrollada en React.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Funcionalidades
 
-## React Compiler
+- Gestión de tareas pendientes
+- Visualización de tareas por categorías
+- Persistencia de datos
+- Interfaz optimizada para dispositivos móviles Android
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📦 APK
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+El archivo APK ya se encuentra generado y disponible en la siguiente ruta:
+- todo-list-app-apk/apk/To-do-list-24000470.apk
+
+---
+
+## ▶️ Instalar la aplicación en Android
+
+1. Descargar el archivo `To-do-list-24000470.apk`
+2. Copiar el archivo al dispositivo Android
+3. Habilitar la opción **Instalar aplicaciones de orígenes desconocidos**
+4. Abrir el APK e instalar la aplicación
+
+---
+
+## 🛠️ Ejecutar en entorno de desarrollo (opcional)
+
+Requisitos:
+- Node.js
+- Android Studio
+- SDK de Android
+
+Comandos principales:
+- npm install
+- npm run build
+- npx cap sync
+- npx cap open android

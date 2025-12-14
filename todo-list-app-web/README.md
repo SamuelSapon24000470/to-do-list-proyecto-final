@@ -1,16 +1,40 @@
-# React + Vite
+# To-Do List App – Versión Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web desarrollada con **React y Vite** para la gestión de tareas pendientes.
 
-Currently, two official plugins are available:
+## ✨ Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Agregar tareas con título, descripción y tipo
+- Listar tareas
+- Marcar tareas como completadas
+- Ver detalles de cada tarea
+- Agrupar tareas por categoría
+- Persistencia de datos con LocalStorage
+- Diseño responsive para dispositivos móviles
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Requisitos
 
-## Expanding the ESLint configuration
+- Node.js (v18 o superior)
+- npm
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ▶️ Ejecutar el proyecto
+
+1. Clonar el repositorio
+2. Entrar a la carpeta del proyecto web: cd todo-list-app-web
+3. Instalar dependencias: npm install
+4. Ejecutar la aplicación: npm run dev
+5. Abrir el navegador en: http://localhost:5173
+
+
+---
+
+## 📱 Uso
+
+- Presiona **Agregar tarea** para crear una nueva tarea
+- Toca una tarea para ver sus detalles
+- Marca una tarea como completada desde el detalle
+- Las tareas se guardan automáticamente en el navegador
